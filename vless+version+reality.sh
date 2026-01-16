@@ -23,7 +23,7 @@ mkdir -p "$XRAY_DIR"
 ################################
 # 2. 用户输入
 ################################
-read -rp "Reality 域名（如 www.cloudflare.com）: " REALITY_DOMAIN
+read -rp "Reality 域名（如 www.cloudflare.com/www.amazon.com/www.sony.com）: " REALITY_DOMAIN
 read -rp "监听端口（默认 443）: " PORT
 PORT=${PORT:-443}
 
